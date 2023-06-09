@@ -8,8 +8,8 @@ df_train = pd.read_csv("train.csv", dtype=str)
 df_valid = pd.read_csv("validation.csv", dtype=str)
 
 # take subset for model fine-tuning
-data_train = df_train[:5000]
-data_valid = df_valid[:1000]
+data_train = df_train[:100000]
+data_valid = df_valid[:20000]
 
 # create class to tokenize data
 
